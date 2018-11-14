@@ -26,7 +26,7 @@ SECRET_KEY = 'yz1+4_74y(lcbru0!-a_wm3yp23sknxw8ksym)5(@suwf9y'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['interiorworkskenya.herokuapp.com']
+ALLOWED_HOSTS = ['interiorworkskenya.herokuapp.com','interiorworkskenya.co.ke']
 
 
 # Application definition
