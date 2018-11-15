@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
 def home(request):
     return render(request, "home.html")
@@ -11,3 +11,6 @@ def contact(request):
 
 def test(request):
     return render(request, "test.html")
+
+def facebook(request):
+    return redirect("https://web.facebook.com/interiorworkskenya")
